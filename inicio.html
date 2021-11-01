@@ -12,18 +12,32 @@
     <title>Hello, world!</title>
   </head>
   <body>
-    <h1>Hello, world!</h1>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-6">
-                <img class="imagen1" src="imagen/depositphotos_12924770-stock-photo-teens-study-in-high-school.jpg">
+    <h1></h1>
+    <div class="container">
+        <div class="row vh-100">
+            <div class="col-md-6 d-none d-md-block img ">
+              
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 bg-light">
                 <div class="row">
-                    <img src="imagen/logo-trans-150.png">
+                    <img src="imagen/logo-trans-150.png" class="img-fluid logo" alt="logo escuela">
+                    <p class="contraseña">INGRESO CAMPUS</p>
                 </div>
                 <div class="row">
-
+                  <div class="col-md-6">
+                    <input type="text" class="form-control" name="usuario" placeholder="Usuario">
+                  </div>
+                  <div class="col-md-6">
+                    <input type="password" class="form-control" name="clave" placeholder="Clave">
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-12 d-grid">
+                    <button class="m-5">INGRESAR</button>
+                  </div>
+                </div>
+                <div class="row">
+                  <p class="aqui">Si olvido su clase puede recuperarla <a href="http://www.cet30.edu.ar/">aqui</a></p>
                 </div>
             </div>
         </div>
