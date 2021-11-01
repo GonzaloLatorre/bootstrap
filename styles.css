@@ -1,0 +1,26 @@
+.img{
+    background-image:url('imagen/depositphotos_12924770-stock-photo-teens-study-in-high-school.jpg');
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+.contraseña{
+    text-align: center;
+    font-size: 1cm;
+    font-weight: 900;
+}
+.aqui{
+    text-align: center;
+    font-size: 0,5cm;
+    font-weight: 900;
+}
+.logo{
+    width: 180px;
+    height: 180px;
+    margin: auto;
+}
+body{
+    background-color: blueviolet;
+}
+.container{
+    box-shadow: 10px 6px 10px black;
+}
