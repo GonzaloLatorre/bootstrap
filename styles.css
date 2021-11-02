@@ -1,4 +1,4 @@
-.img{
+/*.img{
     background-image:url('imagen/depositphotos_12924770-stock-photo-teens-study-in-high-school.jpg');
     background-repeat: no-repeat;
     background-position-x: center;
@@ -23,4 +23,30 @@ body{
 }
 .container{
     box-shadow: 10px 6px 10px black;
+}*/
+.campeon{
+    width: 306px;
+    height: 200px;
+}
+.nombre{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 900;
+    color: white;
+    box-shadow: 3px 2px 3px whitesmoke;
+    text-shadow: 3px 2px 3px red;
+}
+.logo{
+    width: 9000px;
+    height: 300px
+}
+body{
+    background-image: url('imagen/fondolol.jpg');
+}
+.riot{
+    width: 400px;
+    height: 100px;
+}
+.color{
+    background: rgba(17, 3, 17, 0.568);
 }
