@@ -32,21 +32,40 @@ body{
     text-align: center;
     font-size: 25px;
     font-weight: 900;
-    color: white;
-    box-shadow: 3px 2px 3px whitesmoke;
+    color: rgb(26, 4, 4);
     text-shadow: 3px 2px 3px red;
 }
 .logo{
-    width: 9000px;
-    height: 300px
+    width: 35cm;
+    height: 400px;
+    background-position: center;
 }
 body{
     background-image: url('imagen/fondolol.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 .riot{
-    width: 400px;
-    height: 100px;
+    width: 300px;
+    height: 70px;
 }
 .color{
     background: rgba(17, 3, 17, 0.568);
+}
+.dato{
+    width: auto;
+    min-height: 18cm;
+    background: rgba(17, 3, 17, 0.568);
+}
+.card-text{
+    color: white;
+}
+.trans{
+    width: 4cm;
+    height: 3cm;
+}
+.creador{
+    text-align: center;
+    color: white;
+    font-weight: 900;
 }
