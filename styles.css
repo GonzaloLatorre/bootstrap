@@ -65,7 +65,7 @@ body{
     height: 3cm;
 }
 .creador{
-    text-align: center;
     color: white;
     font-weight: 900;
+    text-align: end;
 }
